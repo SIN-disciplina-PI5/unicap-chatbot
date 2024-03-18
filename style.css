@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 32px;
+    font-family: 'montserrat';
+    gap: 20px;
+}
+img{
+    height: 120px;
+    border-radius: 5%;
+}
+#lite-badge{
+    font-size: 0px;
+}
+@media (max-width: 667px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-size: 22px;
+        font-family: 'montserrat';
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+        padding: 60px;
+        
+    }
+}

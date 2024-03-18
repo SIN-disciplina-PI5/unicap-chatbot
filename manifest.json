@@ -1,0 +1,52 @@
+{
+    "name": "ChatbotUnicap",
+    "short_name": "ChatbotUnicap",
+    "theme_color": "#9b0d0c",
+    "background_color": "#2196f3",
+    "display": "standalone",
+    "scope": "/index.html",
+    "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/unicap logo.jpg",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/unicap logo.jpg",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/unicap logo.jpg",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/unicap logo.jpg",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/unicap logo.jpg",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/unicap logo.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/unicap logo.jpg",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/unicap logo.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
