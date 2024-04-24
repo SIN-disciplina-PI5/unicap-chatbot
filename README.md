@@ -26,7 +26,7 @@ Antes de implantar o chatbot, é necessário fazer algumas configurações:
 
 ### Imagens e Ícones
 
-Certifique-se de substituir as imagens e ícones na pasta `assets/` pelos relacionados à Faculdade Unicap.
+Certifique-se de substituir as imagens e ícones na pasta `assets/` pelos relacionados à Universidade Católica de Pernambuco.
 
 ## Implantação
 
@@ -38,7 +38,7 @@ Para implantar o projeto, siga estas etapas:
 
 ## Funcionalidades
 
-O chatbot foi projetado para fornecer informações relevantes sobre a Faculdade Unicap. Os usuários podem iniciar uma conversa e obter respostas automáticas.
+O chatbot foi projetado para fornecer informações relevantes sobre a Universidade Católica de Pernambuco. Os usuários podem iniciar uma conversa e obter respostas automáticas.
 
 ## Considerações Finais
 
