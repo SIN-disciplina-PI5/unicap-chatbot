@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Bem-vindo à documentação do projeto Chatbot Unicap! Este documento oferece informações essenciais para entender, configurar e implantar o chatbot desenvolvido para a Faculdade Unicap. Este projeto é parte integrante do Trabalho de Conclusão de Curso (TCC) e utiliza a plataforma Typebot para implementação.
+Bem-vindo à documentação do projeto Chatbot Unicap! Este documento oferece informações essenciais para entender, configurar e implantar o chatbot desenvolvido para a Universidade Católica de Pernambuco. Este projeto é parte integrante do Trabalho de Conclusão de Curso (TCC) e utiliza a plataforma Typebot para implementação.
 
 ## Estrutura do Projeto
 
@@ -42,4 +42,4 @@ O chatbot foi projetado para fornecer informações relevantes sobre a Faculdade
 
 ## Considerações Finais
 
-Este projeto é uma contribuição valiosa para o TCC, demonstrando a implementação prática de um chatbot para facilitar a interação e fornecer informações aos usuários da Faculdade Unicap.
+Este projeto é uma contribuição valiosa para o TCC, demonstrando a implementação prática de um chatbot para facilitar a interação e fornecer informações aos usuários da Universidade Católica de Pernambuco.
