@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+li{
+    cursor: pointer;
+}
+
+h2{
+    color: rgb(187, 185, 185);
+    margin-left: 13%;
+    margin-top: 3rem;
+}
+#lite-badge{
+    display: none !important;
+}

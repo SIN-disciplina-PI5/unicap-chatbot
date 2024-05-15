@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-   <link rel="canonical" href="https://chatbot-unicap.vercel.app/">
-   <meta name="apple-mobile-web-app-capable" content="yes">
-   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-   <meta name="apple-mobile-web-app-title" content="edson iOS">
-    <link rel="apple-touch-icon" href="assets/unicap logo.jpg">
+  <head>
+    <link rel="canonical" href="https://chatbot-unicap.vercel.app/" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="edson iOS" />
+    <link rel="apple-touch-icon" href="assets/unicap logo.jpg" />
     <link rel="manifest" href="manifest.json" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chatbot Unicap</title>
-    <link rel="shortcut icon" href="assets/unicap logo.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Projeto para exibir o chatbot feito com typebot TCC">
-</head>
-<body>
-  <script>
-
-    if ("serviceWorker" in navigator) {
-     if (navigator.serviceWorker.controller) {
-     console.log("[PWA Builder] active service worker found, no need to register");
-     } else {
-     navigator.serviceWorker
-     .register("pwabuilder-sw.js", {
-     scope: "./"
-     })
-     .then(function (reg) {
-     console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-     });
-     }
-    }
-    </script>
-    <main>
-        <img src="assets/unicap logo.jpg" alt="logo unicap">
-        <h1> Deploy Chatbot project for unicap</h1>
-    </main>
+    <link
+      rel="shortcut icon"
+      href="assets/unicap logo.jpg"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Projeto para exibir o chatbot feito com typebot TCC"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
 
     <script type="module">
-        import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2/dist/web.js'
-      
-        Typebot.initBubble({
-          typebot: "chatbot-unicap-pscf88a",
-          previewMessage: {
-            message: "Como posso ajudar?",
-            avatarUrl:
-              "https://s3.typebot.io/public/workspaces/cloap5zvq0021l00fneeh81yt/typebots/cloap7jq80027l00fnpscf88a/hostAvatar?v=1698538855804",
-          },
-          theme: {
-            button: { backgroundColor: "#9b0d0c" },
-            chatWindow: { backgroundColor: "#FFFFFF" },
-          },
-        });
-      </script>
+      import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2/dist/web.js'
     
-</body>
+      Typebot.initBubble({
+        typebot: "chatbot-unicap-pscf88a",
+        previewMessage: {
+          message: "Como posso ajudar?",
+          avatarUrl:
+            "https://s3.typebot.io/public/workspaces/cloap5zvq0021l00fneeh81yt/typebots/cloap7jq80027l00fnpscf88a/hostAvatar?v=1698538855804",
+        },
+        theme: {
+          button: { backgroundColor: "#9b0d0c" },
+          chatWindow: { backgroundColor: "#FFFFFF" },
+        },
+      });
+      window.onload = function() {
+    var element = document.getElementById('lite-badge');
+    if (element) {
+        element.style.display = 'none';
+    }
+};
+    </script>
+  </body>
 </html>
