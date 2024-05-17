@@ -25,26 +25,22 @@
     <script type="module" src="/src/main.tsx"></script>
 
     <script type="module">
-      import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2/dist/web.js'
+      import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2.81/dist/web.js'
     
       Typebot.initBubble({
-        typebot: "chatbot-unicap-pscf88a",
+        typebot: "chatbot-unicap-lg1yrho",
+        apiHost: "https://viewer-production-2830.up.railway.app",
         previewMessage: {
-          message: "Como posso ajudar?",
+          message: "Olá, Tem alguma dúvida ?",
+          autoShowDelay: 1000,
           avatarUrl:
-            "https://s3.typebot.io/public/workspaces/cloap5zvq0021l00fneeh81yt/typebots/cloap7jq80027l00fnpscf88a/hostAvatar?v=1698538855804",
+            "https://s3.typebot.io/public/workspaces/cloap5zvq0021l00fneeh81yt/typebots/cloap7jq80027l00fnpscf88a/hostAvatar?v=1715534006527",
         },
         theme: {
           button: { backgroundColor: "#9b0d0c" },
-          chatWindow: { backgroundColor: "#FFFFFF" },
+          chatWindow: { backgroundColor: "#F6F2F2" },
         },
       });
-      window.onload = function() {
-    var element = document.getElementById('lite-badge');
-    if (element) {
-        element.style.display = 'none';
-    }
-};
     </script>
   </body>
 </html>
