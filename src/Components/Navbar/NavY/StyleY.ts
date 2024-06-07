@@ -11,7 +11,6 @@ align-items: center;
 padding: 1rem;
 font-size: 2rem;
 gap: 2rem;
-padding-bottom: 50%;
 
 background-color: #BF8335;
   @media (max-width: ${breakpoints.mobile}) {

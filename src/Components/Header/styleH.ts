@@ -24,7 +24,7 @@ export const ContainerImg = styled.div`
   }
 `;
 export const Imgportal = styled.img`
-    width: 103.8%;
+    width: 100%;
     @media (max-width: ${breakpoints.mobile}) {
     width: 100%;
   }
