@@ -24,9 +24,7 @@ const NavbarX = () => {
         </Nav1>
       </div>
       <ContainerNav2>
-        <Nav2>
-          <img src={Logo} alt="Logo" width="130px"/>
-        </Nav2>
+          <Nav2 src={Logo} alt="Logo" width="130px"/>
         <Nav2Rigth>
           <StDiv2>
             <span><LuClipboardCheck /></span>
@@ -41,10 +39,10 @@ const NavbarX = () => {
             <span>Financeiro</span>
           </StDiv2>
           <li>
-            <HiMagnifyingGlassPlus size="2rem" />
+            <HiMagnifyingGlassPlus  />
           </li>
           <li>
-            <HiMagnifyingGlassMinus size="2rem" />
+            <HiMagnifyingGlassMinus  />
           </li>
           <Contrast>A</Contrast>
         </Nav2Rigth>

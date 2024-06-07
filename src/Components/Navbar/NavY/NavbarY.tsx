@@ -18,18 +18,18 @@ import { TbReportSearch } from "react-icons/tb";
 const NavbarY = () => {
   return (
     <ContainerY>
-        <li><FiAlignJustify color="white" size="1.5rem" /></li>
-        <li><RiComputerLine color="white" size="1.5rem" /></li>
-        <li>< MdOutlineCalendarMonth color="white" size="1.5rem"/></li>
-        <li>< AiOutlineAppstore color="white" size="1.5rem"/></li>
-        <li>< IoTimeOutline color="white" size="1.5rem"/></li>
-        <li>< FaUserPlus color="white" size="1.5rem"/></li>
-        <li>< BsFillMortarboardFill color="white" size="1.5rem"/></li>
-        <li>< LuFileSpreadsheet color="white" size="1.5rem"/></li>
-        <li>< BiMoneyWithdraw color="white" size="1.5rem"/></li>
-        <li>< MdOutlineMarkChatRead color="white" size="1.5rem"/></li>
-        <li>< TbReportSearch color="white" size="1.5rem"/></li>
-        <li>< BsChatText color="white" size="1.5rem"/></li>
+        <li><FiAlignJustify color="white"  /></li>
+        <li><RiComputerLine color="white"  /></li>
+        <li>< MdOutlineCalendarMonth color="white" /></li>
+        <li>< AiOutlineAppstore color="white" /></li>
+        <li>< IoTimeOutline color="white" /></li>
+        <li>< FaUserPlus color="white" /></li>
+        <li>< BsFillMortarboardFill color="white" /></li>
+        <li>< LuFileSpreadsheet color="white" /></li>
+        <li>< BiMoneyWithdraw color="white" /></li>
+        <li>< MdOutlineMarkChatRead color="white" /></li>
+        <li>< TbReportSearch color="white" /></li>
+        <li>< BsChatText color="white" /></li>
     </ContainerY>
   )
 }
