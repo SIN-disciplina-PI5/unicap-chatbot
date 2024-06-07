@@ -25,6 +25,9 @@ export const ContainerImg = styled.div`
 `;
 export const Imgportal = styled.img`
     width: 103.8%;
+    @media (max-width: ${breakpoints.mobile}) {
+    width: 100%;
+  }
 `
 export const ContainerText = styled.div`
   display: flex;
